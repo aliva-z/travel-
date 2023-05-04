@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ body{
+    color: #708090;
+    font: 19px/20px 'Domine',Arial, Helvetica, serif,'Montserrat', sans-serif;
+    background: url("./../image/forest.jpg") no-repeat;
+    background-size: cover;
+    position: relative;
+      
+ }
+ a{
+   color: inherit;
+   text-decoration: none;
+   transition:  .4s;
+}
+ul li{
+   list-style: none;
+}
+
+#header-section{
+    padding: 40px 0 107px;
+ }
+ .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+ }
+ .wrapper__img{
+    width: 235px;
+    height: 123px;
+ }
+ button{
+    display: block;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    transition:  .4s;
+ }
+ .nav-main{
+    margin-left: auto;
+ }
+ .nav-main__list{
+    display: flex;
+    gap: 50px;
+    margin-right: 70px;
+ }
+ .nav-main__link:hover{
+    color: #FFA07A;
+ }
+
+
+.container{
+    margin: 0 auto;
+    padding: 0 10px;
+    max-width: 1420px;
+ }
+
+ #form-header{
+    height: 100vh;
+    
+ }
+
+ .form-header:before{
+    content: '';
+    position: absolute;
+   /* top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;*/
+    width: 100%;
+    height: 100%;
+    
+ }
+ .center{
+    position: relative;
+    top: 30%;
+    transform: translateY(-50%);
+    color: #FFFFFF;
+    padding: 310px;
+    height: 100%;
+ }
+ 
+ .rows{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+ }
+  
+ .booking__text{
+    font-size: 70px;
+    align-items: center;
+    margin-bottom: 20px;
+    line-height: 70px;
+    letter-spacing: 0.8px;
+    color: black;
+ }
+ .booking-form{
+    background: linear-gradient(45deg,chocolate, lime);
+    color: darkgreen;
+    padding: 20px 10px;
+    font-size: 30px;
+    width: 1290px;
+ 
+ }
+ 
+ .form-group{
+    height: 50px;
+    
+ }
+ 
+ .form-control{
+    background-color: rgb(227, 251, 227);
+    height: 40px;
+    width: 800px;
+    font-size: 30px;
+    color: rgb(13  95 13/ 90%);
+ }
+ 
+ 
+ .submit-btn{
+    padding: 12px 24px;
+    font-weight: 700;
+    background-color: rgb(248, 228, 45);
+    color: white;
+    font-size: 20px;
+ }
+
+
+ .footer{
+    margin-top: 150px;
+    background:black;
+    padding-bottom:40px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+    font-size: 30px;
+    }
+  
+    .footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.8em;
+    }
+  
+    .footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+    }
+  
+    .footer .row a:hover{
+    color:#fff;
+    }
+  
+    .footer .row ul{
+    width:100%;
+    }
+  
+    .footer .row ul li{
+    display:inline-block;
+    padding: 20px;
+    padding-left: 120px;
+    }
+  
+    .footer .row a i{
+    font-size:2em;
+    margin:0% 1%;
+    }
+  
+    @media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+    }
+  }
